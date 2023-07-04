@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-04T08:48:48.892Z"
+    "x-generation-date": "2023-07-04T09:05:07.393Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -129,6 +129,9 @@
               "example": "string or id"
             }
           },
+          "pinned": {
+            "type": "boolean"
+          },
           "locale": {
             "type": "string"
           }
@@ -181,6 +184,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "pinned": {
+                "type": "boolean"
               },
               "locale": {
                 "type": "string"
@@ -1082,6 +1088,9 @@
                 }
               }
             }
+          },
+          "pinned": {
+            "type": "boolean"
           },
           "createdAt": {
             "type": "string",
